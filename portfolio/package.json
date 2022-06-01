@@ -7,7 +7,10 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
+    "@iconify-json/mdi": "^1.1.19",
+    "@iconify-json/simple-icons": "^1.1.14",
     "@nuxtjs/tailwindcss": "^5.1.2",
-    "nuxt": "3.0.0-rc.3"
+    "nuxt": "3.0.0-rc.3",
+    "unplugin-icons": "^0.14.3"
   }
 }
