@@ -10,7 +10,10 @@ module.exports = {
       },
       fontFamily: {
         'custom': ['Roboto', 'Helvetica', 'Arial'],
-      }
+      },
+      backgroundImage: {
+        'playerTracker1': "url('/img/player-tracker-1.0.png')"
+      },
     },
   },
   plugins: [],

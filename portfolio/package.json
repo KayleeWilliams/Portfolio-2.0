@@ -7,6 +7,8 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
+    "@iconify-json/fa-solid": "^1.1.1",
+    "@iconify-json/heroicons-outline": "^1.1.1",
     "@iconify-json/mdi": "^1.1.19",
     "@iconify-json/simple-icons": "^1.1.14",
     "@nuxtjs/tailwindcss": "^5.1.2",

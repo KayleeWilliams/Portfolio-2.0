@@ -3,6 +3,7 @@
     <div class="flex flex-col px-8 pt-40 justify-center items-center">
       <title-section />
       <about-section />
+      <projects-section />
       <contact-section />
     </div>
   </div>
