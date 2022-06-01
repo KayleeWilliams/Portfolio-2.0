@@ -7,6 +7,9 @@ module.exports = {
         box: '#372549',
         button: '#EA638C',
         highlight: '#DA929C',
+      },
+      fontFamily: {
+        'custom': ['Roboto', 'Helvetica', 'Arial'],
       }
     },
   },

@@ -1,6 +1,6 @@
 <template>
   <div
-    class="h-screen w-full flex flex-col gap-12 items-start text-left leading-tight">
+    class="h-screen w-full flex flex-col gap-12 items-start justify-center text-left leading-tight">
     <!-- About Section -->
     <div class="flex flex-col gap-12 text-2xl">
       <p class="text-4xl font-bold">About Me</p>
