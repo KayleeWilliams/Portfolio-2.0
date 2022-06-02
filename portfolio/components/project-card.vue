@@ -1,29 +1,33 @@
 <template>
   <div class="w-full flex flex-row justify-center">
     <!-- Text Card -->
-    <div class="bg-playerTracker1 bg-cover bg-center w-64 h-56 rounded-2xl">
+    <div :class="projectBackground" class="bg-cover bg-center w-72 h-72 rounded-2xl">
         <div class="flex flex-col justify-between break-words text-left bg-box w-full h-full px-6 py-6 rounded-2xl opacity-95">
-            <div class="flex flex-row justify-between items-center">
-                <p class="text-base">{{ projectDates }}</p>
+            <div class="flex flex-col gap-2">
+                <div class="flex flex-row justify-between items-center">
+                    <p class="text-base">{{ projectDates }}</p>
 
-                <!-- External Links -->
-                <div class="flex flex-row gap-1">
-                    <a v-show="projectYoutube" :href="projectYoutube" target="_blank">
-                        <MdiYoutube class="w-6 h-6 text-button hover:text-highlight" />
-                    </a>
+                    <!-- External Links -->
+                    <div class="flex flex-row gap-1">
+                        <a v-show="projectYoutube" :href="projectYoutube" target="_blank">
+                            <MdiYoutube class="w-6 h-6 text-button hover:text-highlight" />
+                        </a>
 
-                    <a v-show="projectGithub" :href="projectGithub" target="_blank">
-                        <MdiGithub class="w-6 h-6 text-button hover:text-highlight" />
-                    </a>
+                        <a v-show="projectGithub" :href="projectGithub" target="_blank">
+                            <MdiGithub class="w-6 h-6 text-button hover:text-highlight" />
+                        </a>
 
-                    <a v-show="projectExternal" :href="projectExternal" target="_blank">
-                    <HeroiconsOutlineExternalLink class="w-6 h-6 text-button hover:text-highlight" />
-                    </a>
+                        <a v-show="projectExternal" :href="projectExternal" target="_blank">
+                        <HeroiconsOutlineExternalLink class="w-6 h-6 text-button hover:text-highlight" />
+                        </a>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-2">
+                    <p class="text-xl font-bold">{{ projectTitle }}</p>
+                    <p class="text-base">{{ projectDesc }}</p>
                 </div>
             </div>
-            <p class="text-xl font-bold">{{ projectTitle }}</p>
-            <p class="text-lg">{{ projectDesc }}</p>
-            <p class="text-base">{{ projectLangs }}</p>
+            <p class="text-sm">{{ projectLangs }}</p>
         </div>
     </div>
   </div>
@@ -45,6 +49,7 @@ export default {
     projectGithub: String,
     projectYoutube: String,
     projectExternal: String,
+    projectBackground: String,
   },
 };
 </script>

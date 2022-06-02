@@ -14,35 +14,54 @@
     <p class="text-4xl font-bold">My Projects</p>
     <project-card
       projectDates="01/06/2022"
-      projectTitle="Portfolio 2.0"
-      projectDesc="A website to display projects I work on."
+      projectTitle="Portfolio Website 2.0"
+      projectDesc="An update to my previous portfolio using Nuxt 3 and Tailwind CSS to showcase projects I've worked on."
       projectLangs="Nuxt 3 & TailwindCSS"
-      projectGithub="https://www.google.co.uk"
-      projectYoutube="https://www.google.co.uk"
+      projectGithub="https://github.com/KayleeWilliams/Portfolio-2.0"
+      projectExternal="https://www.kayleewilliams.dev"
     />
 
     <project-card
-      projectDates="01/06/2022"
+      projectDates="23/05/2022"
       projectTitle="YouTube Wrapped"
-      projectDesc="A website to display projects I work on."
-      projectLangs="Nuxt 3 & TailwindCSS"
-      projectGithub="https://www.google.co.uk"
-      projectYoutube="https://www.google.co.uk"
+      projectDesc="Presenting a users yearly recap using data obtained by Google Takeout and YouTube's API using Nuxt 3 and Tailwind CSS."
+      projectLangs="Nuxt 3, Tailwind CSS, YouTube API & Python"
+      projectGithub="https://github.com/KayleeWilliams/YouTube-Wrapped"
     />
 
     <project-card
-        v-show="expand == true"
-      projectDates="01/06/2022"
-      projectTitle="YouTube Wrapped"
-      projectDesc="A website to display projects I work on."
-      projectLangs="Nuxt 3 & TailwindCSS"
-      projectGithub="https://www.google.co.uk"
-      projectYoutube="https://www.google.co.uk"
+      v-show="expand == true"
+      projectDates="15/05/2022"
+      projectTitle="Portfolio Website 1.0"
+      projectDesc="A website I created with Nuxt 2 and Tailwind CSS to act as my portfolio and is used to showcase projects I've worked on."
+      projectLangs="Nuxt 2 & Tailwind CSS"
+      projectGithub="https://github.com/KayleeWilliams/Portfolio-1.0"
     />
 
-    <button @click="expand = true" v-show="expand == false" class="bg-box px-6 py-4 rounded-2xl text-xl"> Show More </button>
-    <button @click="expand = false" v-show="expand == true" class="bg-box px-6 py-4 rounded-2xl text-xl"> Show Less </button>
+    <project-card
+      v-show="expand == true"
+      projectDates="30/03/2022"
+      projectBackground="bg-playerTracker1"
+      projectTitle="League Player Tracker 1.0"
+      projectDesc="A Discord bot designed to track multiple players to help improve efficency within teams."
+      projectLangs="Python, Discord, MongoDB & Riot API"
+      projectGithub="https://github.com/KayleeWilliams/League-Player-Tracker-1.0"
+    />
 
+    <button
+      @click="expand = true"
+      v-show="expand == false"
+      class="bg-box px-6 py-4 rounded-2xl text-xl"
+    >
+      Show More
+    </button>
+    <button
+      @click="expand = false"
+      v-show="expand == true"
+      class="bg-box px-6 py-4 rounded-2xl text-xl"
+    >
+      Show Less
+    </button>
   </div>
 </template>
 
@@ -56,13 +75,13 @@ import SimpleIconsFigma from "~icons/simple-icons/figma";
 </script>
 
 <script>
-import { defineComponent } from 'vue'
+import { defineComponent } from "vue";
 
-export default defineComponent ({
-    data: () => {
-            return {
-                expand: false
-            };
-        },
+export default defineComponent({
+  data: () => {
+    return {
+      expand: false,
+    };
+  },
 });
 </script>
