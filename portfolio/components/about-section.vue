@@ -1,8 +1,8 @@
 <template>
   <div
-    class="h-screen w-full flex flex-col gap-12 items-start justify-center text-left leading-tight">
+    class="h-screen w-full flex flex-col gap-8 items-start justify-center text-left leading-tight">
     <!-- About Section -->
-    <div class="flex flex-col gap-12 text-2xl">
+    <div class="flex flex-col gap-6 text-2xl">
       <p class="text-4xl font-bold">About Me</p>
       <p>
         Hi, I'm Kaylee Williams. I am a software engineer currently studying
@@ -13,7 +13,7 @@
     </div>
 
     <!-- Skills/Toolbox Section -->
-    <div class="flex flex-col gap-8 text-2xl items-center w-full">
+    <div class="flex flex-col gap-6 text-2xl items-center w-full">
       <p class="text-4xl font-bold">My Toolbox</p>
       <div class="flex flex-row flex-wrap">
         <MdiLanguagePython class="w-12 h-12 basis-1/3 mb-12" />
