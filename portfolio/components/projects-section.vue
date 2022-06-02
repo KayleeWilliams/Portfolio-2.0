@@ -4,14 +4,14 @@
       h-max
       w-full
       flex flex-col
-      gap-6
       items-center
       justify-center
       text-center text-2xl
       mt-6
+      gap-6
     "
   >
-    <p class="text-4xl font-bold">My Projects</p>
+    <p class="font-bold text-4xl md:text-6xl">My Projects</p>
     <project-card
       projectDates="01/06/2022"
       projectTitle="Portfolio Website 2.0"
