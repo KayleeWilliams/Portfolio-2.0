@@ -32,8 +32,7 @@
     </div>
 
 
-    <div :class="projectBackground" class="hidden lg:block bg-highlight bg-cover bg-center rounded-2xl w-72 h-72">
-
+    <div :class="projectBackground" class="hidden lg:block bg-bg bg-cover bg-center rounded-2xl w-72 h-72 xl:w-96 xl-96">
     </div>    
   </div>
 </template>

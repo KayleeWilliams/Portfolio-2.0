@@ -9,12 +9,13 @@ module.exports = {
         highlight: '#DA929C',
       },
       fontFamily: {
-        'custom': ['Roboto', 'Helvetica', 'Arial'],
+        'custom': ['Roboto', 'Open Sans', 'Arial'],
       },
       backgroundImage: {
         'playerTracker1': "url('/img/player-tracker-1.0.png')",
         'portfolio1': "url('/img/portfolio-1.0.png')",
-
+        'youtubeWrapped': "url('/img/youtube-wrapped.png')",
+        'portfolio2': "url('/img/portfolio-2.0.png')",
       },
     },
   },

@@ -14,6 +14,7 @@
     <p class="font-bold text-4xl md:text-6xl">My Projects</p>
     <project-card
       projectDates="01/06/2022"
+      projectBackground="bg-portfolio2"
       projectTitle="Portfolio Website 2.0"
       projectDesc="An update to my previous portfolio using Nuxt 3 and Tailwind CSS to showcase projects I've worked on."
       projectLangs="Nuxt 3 & TailwindCSS"
@@ -24,6 +25,7 @@
 
     <project-card
       projectDates="23/05/2022"
+      projectBackground="bg-youtubeWrapped"
       projectTitle="YouTube Wrapped"
       projectDesc="Presenting a users yearly recap using data obtained by Google Takeout and YouTube's API."
       projectLangs="Nuxt 3, Tailwind CSS, YouTube API & Python"

@@ -1,6 +1,6 @@
 <template>
-  <div class="bg-bg text-white font-custom w-screen h-full">
-    <div class="flex flex-col justify-center items-center px-8 pt-40 md:px-20 lg:pt-24  lg:px-32">
+  <div class="bg-bg text-white font-custom w-full h-full">
+    <div class="flex flex-col justify-center items-center px-8 pt-40 md:px-20 lg:px-32 xl:px-64 ">
       <title-section @goTo="goTo"/>
       <div ref="About"><about-section /></div>
       <projects-section />
