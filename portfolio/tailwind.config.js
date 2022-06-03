@@ -12,7 +12,9 @@ module.exports = {
         'custom': ['Roboto', 'Helvetica', 'Arial'],
       },
       backgroundImage: {
-        'playerTracker1': "url('/img/player-tracker-1.0.png')"
+        'playerTracker1': "url('/img/player-tracker-1.0.png')",
+        'portfolio1': "url('/img/portfolio-1.0.png')",
+
       },
     },
   },
