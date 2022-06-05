@@ -10,15 +10,15 @@
                     <!-- External Links -->
                     <div class="flex flex-row gap-1">
                         <a v-show="projectYoutube" :href="projectYoutube" target="_blank">
-                            <MdiYoutube class="w-6 h-6 text-button hover:text-highlight" />
+                            <MdiYoutube class="text-button transition ease-in-out delay-150 duration-300 hover:text-highlight hover:-translate-y-1 hover:scale-105 w-6 h-6 lg:w-8 lg:h-8" />
                         </a>
 
                         <a v-show="projectGithub" :href="projectGithub" target="_blank">
-                            <MdiGithub class="w-6 h-6 text-button hover:text-highlight" />
+                            <MdiGithub class="text-button transition ease-in-out delay-150 duration-300 hover:text-highlight hover:-translate-y-1 hover:scale-105 w-6 h-6 lg:w-8 lg:h-8" />
                         </a>
 
                         <a v-show="projectExternal" :href="projectExternal" target="_blank">
-                        <HeroiconsOutlineExternalLink class="w-6 h-6 text-button hover:text-highlight" />
+                        <HeroiconsOutlineExternalLink class="text-button transition ease-in-out delay-150 duration-300 hover:text-highlight hover:-translate-y-1 hover:scale-105 w-6 h-6 lg:w-8 lg:h-8" />
                         </a>
                     </div>
                 </div>

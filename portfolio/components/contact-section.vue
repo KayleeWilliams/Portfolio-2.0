@@ -4,11 +4,11 @@
         <p> Feel free to get in contact with me by Email or on Linkedin. </p>
         <div class="flex flex-row gap-8">
             <a href="mailto:kaylee@kayleewilliams.dev" target="_blank">
-                <MdiEmail class="text-button hover:text-highlight w-12 h-12 md:w-16 md:h-16" />
+                <MdiEmail class="text-button transition ease-in-out delay-150 duration-150 hover:text-highlight hover:-translate-y-1 hover:scale-105 w-12 h-12 md:w-16 md:h-16" />
             </a>
 
              <a href="https://www.linkedin.com/in/kaylee-williams-1559251bb" target="_blank">
-                <MdiLinkedin class="text-button hover:text-highlight w-12 h-12 md:w-16 md:h-16" />
+                <MdiLinkedin class="text-button transition ease-in-out delay-150 duration-150 hover:text-highlight hover:-translate-y-1 hover:scale-105 w-12 h-12 md:w-16 md:h-16" />
             </a>
         </div>
     </div>
