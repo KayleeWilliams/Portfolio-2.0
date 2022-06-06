@@ -20,7 +20,7 @@
       projectLangs="Nuxt 3 & TailwindCSS"
       projectGithub="https://github.com/KayleeWilliams/Portfolio-2.0"
       projectExternal="https://www.kayleewilliams.dev"
-      projectOrder="lg:order-first lg:mr-[-24px]"
+      projectBox="lg:order-first lg:mr-[-24px] bg-portfolio2"
     />
 
     <project-card
@@ -30,7 +30,7 @@
       projectDesc="Presenting a users yearly recap using data obtained by Google Takeout and YouTube's API."
       projectLangs="Nuxt 3, Tailwind CSS, YouTube API & Python"
       projectGithub="https://github.com/KayleeWilliams/YouTube-Wrapped"
-      projectOrder="lg:order-last lg:ml-[-24px]"
+      projectBox="lg:order-last lg:ml-[-24px] bg-youtubeWrapped"
     />
 
     <project-card
@@ -41,7 +41,8 @@
       projectDesc="A website I created with Nuxt 2 and Tailwind CSS to act as my portfolio and is used to showcase projects I've worked on."
       projectLangs="Nuxt 2 & Tailwind CSS"
       projectGithub="https://github.com/KayleeWilliams/Portfolio-1.0"
-      projectOrder="lg:order-first lg:mr-[-24px]"
+      projectExternal="https://portfolio1.kayleewilliams.dev"
+      projectBox="lg:order-first lg:mr-[-24px] bg-portfolio1"
     />
 
     <project-card
@@ -52,7 +53,7 @@
       projectDesc="A Discord bot designed to track multiple players to help improve efficency within teams."
       projectLangs="Python, Discord, MongoDB & Riot API"
       projectGithub="https://github.com/KayleeWilliams/League-Player-Tracker-1.0"
-      projectOrder="lg:order-last lg:ml-[-24px]"
+      projectBox="lg:order-last lg:ml-[-24px] bg-playerTracker1"
     />
 
     <button
