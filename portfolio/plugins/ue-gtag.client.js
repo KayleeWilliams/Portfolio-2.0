@@ -1,4 +1,3 @@
-import { defineNuxtPlugin } from '#app'
 import VueGtag from 'vue-gtag-next'
 
 export default defineNuxtPlugin((nuxtApp) => {
@@ -9,7 +8,7 @@ export default defineNuxtPlugin((nuxtApp) => {
     property: {
       id: config.GOOGLE_ANALYTICS_ID
     },
-    
+
     appName: 'Portfolio',
     enabled: getGDPR === 'true',
     pageTrackerScreenviewEnabled: true
