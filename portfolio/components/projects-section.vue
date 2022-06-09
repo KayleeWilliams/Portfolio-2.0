@@ -30,6 +30,7 @@
       projectDesc="Presenting a users yearly recap using data obtained by Google Takeout and YouTube's API."
       projectLangs="Nuxt 3, Tailwind CSS, YouTube API & Python"
       projectGithub="https://github.com/KayleeWilliams/YouTube-Wrapped"
+      projectExternal="https://wrapped.kayleewilliams.dev"
       projectBox="lg:order-last lg:ml-[-24px] bg-youtubeWrapped"
     />
 

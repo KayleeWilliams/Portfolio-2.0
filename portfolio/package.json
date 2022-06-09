@@ -14,5 +14,9 @@
     "@nuxtjs/tailwindcss": "^5.1.2",
     "nuxt": "3.0.0-rc.3",
     "unplugin-icons": "^0.14.3"
+  },
+  "dependencies": {
+    "requests": "^0.3.0",
+    "vue-gtag-next": "^1.14.0"
   }
 }

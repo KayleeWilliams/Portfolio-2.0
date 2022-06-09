@@ -9,6 +9,10 @@ export default defineNuxtConfig({
       meta:[{ name: 'description', content: "Hi, I'm Kaylee Williams, a Software Engineer. Come check out some of the projects I've worked on!" }],
     },
 
+    publicRuntimeConfig: {
+      GOOGLE_ANALYTICS_ID: process.env.GOOGLE_ANALYTICS_ID
+    },
+
     modules: ['@nuxtjs/tailwindcss'],
     vite: {
     plugins: [
