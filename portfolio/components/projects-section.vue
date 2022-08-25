@@ -12,6 +12,17 @@
     "
   >
     <p class="font-bold text-4xl md:text-6xl">My Projects</p>
+    
+    <project-card
+      projectDates="15/06/2022"
+      projectBackground="bg-playerTracker2"
+      projectTitle="League Player Tracker 2.0"
+      projectDesc="Discord Bot which provides useful information about a users league of legends match or generate a summary."
+      projectLangs="Typescript, Discord.js, MongoDB & Riot API"
+      projectGithub="https://github.com/KayleeWilliams/League-Player-Tracker-2.0"
+      projectBox="lg:order-last lg:ml-[-24px] bg-playerTracker2"
+    />
+    
     <project-card
       projectDates="01/06/2022"
       projectBackground="bg-portfolio2"
@@ -24,6 +35,7 @@
     />
 
     <project-card
+      v-show="expand == true"
       projectDates="23/05/2022"
       projectBackground="bg-youtubeWrapped"
       projectTitle="YouTube Wrapped"
