@@ -17,6 +17,8 @@ module.exports = {
         'youtubeWrapped': "url('/assets/img/youtube-wrapped.webp')",
         'portfolio2': "url('/assets/img/portfolio-2.0.webp')",
         'playerTracker2': "url('/assets/img/player-tracker-2.0.webp')",
+        'timetableCalendar': "url('/assets/img/timetable.webp')",
+
       },
     },
   },

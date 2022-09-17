@@ -11,23 +11,35 @@
       gap-6
     "
   >
-    <p class="font-bold text-4xl md:text-6xl">My Projects</p>
+    <p class="font-bold text-4xl md:text-6xl">Featured Projects</p>
+
+    <project-card
+      projectDates="10/09/2022"
+      projectBackground="bg-timetableCalendar"
+      projectTitle="Timetable to Calendar"
+      projectDesc="A tool created with Python to scrape data from my university timetable and use the data to add, modify and remove events on Google Calendar."
+      projectLangs="Python & Google Calendar API"
+      projectGithub="https://github.com/KayleeWilliams/Timetable-to-Calendar"
+      projectYoutube="https://youtu.be/WXeFmFgpb64"
+      projectBox="lg:order-first lg:mr-[-24px] bg-timetableCalendar"
+    />
     
     <project-card
       projectDates="15/06/2022"
       projectBackground="bg-playerTracker2"
       projectTitle="League Player Tracker 2.0"
-      projectDesc="Discord Bot which provides useful information about a users league of legends match or generate a summary."
+      projectDesc="A Discord Bot to provide information about the users League of Legends matches or generate a summary over multiple games."
       projectLangs="Typescript, Discord.js, MongoDB & Riot API"
       projectGithub="https://github.com/KayleeWilliams/League-Player-Tracker-2.0"
       projectBox="lg:order-last lg:ml-[-24px] bg-playerTracker2"
     />
     
     <project-card
+      v-show="expand == true"
       projectDates="01/06/2022"
       projectBackground="bg-portfolio2"
       projectTitle="Portfolio Website 2.0"
-      projectDesc="An update to my previous portfolio using Nuxt 3 and Tailwind CSS to showcase projects I've worked on."
+      projectDesc="My portfolio is created with Nuxt 3 and Tailwind CSS to showcase projects that I made."
       projectLangs="Nuxt 3 & TailwindCSS"
       projectGithub="https://github.com/KayleeWilliams/Portfolio-2.0"
       projectExternal="https://www.kayleewilliams.dev"
@@ -39,7 +51,7 @@
       projectDates="23/05/2022"
       projectBackground="bg-youtubeWrapped"
       projectTitle="YouTube Wrapped"
-      projectDesc="Presenting a users yearly recap using data obtained by Google Takeout and YouTube's API."
+      projectDesc="Using Google Takeout and YouTube API to present a recap of a user's data for the past year."
       projectLangs="Nuxt 3, Tailwind CSS, YouTube API & Python"
       projectGithub="https://github.com/KayleeWilliams/YouTube-Wrapped"
       projectExternal="https://wrapped.kayleewilliams.dev"
@@ -51,7 +63,7 @@
       projectDates="15/05/2022"
       projectBackground="bg-portfolio1"
       projectTitle="Portfolio Website 1.0"
-      projectDesc="A website I created with Nuxt 2 and Tailwind CSS to act as my portfolio and is used to showcase projects I've worked on."
+      projectDesc="A website created with Nuxt 2 and Tailwind CSS to showcase projects I have worked on."
       projectLangs="Nuxt 2 & Tailwind CSS"
       projectGithub="https://github.com/KayleeWilliams/Portfolio-1.0"
       projectExternal="https://portfolio1.kayleewilliams.dev"
@@ -63,7 +75,7 @@
       projectDates="30/03/2022"
       projectBackground="bg-playerTracker1"
       projectTitle="League Player Tracker 1.0"
-      projectDesc="A Discord bot designed to track multiple players to help improve efficency within teams."
+      projectDesc="A Discord Bot designed to track multiple players to help improve efficiency within teams."
       projectLangs="Python, Discord, MongoDB & Riot API"
       projectGithub="https://github.com/KayleeWilliams/League-Player-Tracker-1.0"
       projectBox="lg:order-last lg:ml-[-24px] bg-playerTracker1"
