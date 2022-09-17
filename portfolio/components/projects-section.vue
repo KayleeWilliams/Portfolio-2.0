@@ -1,7 +1,7 @@
 <template>
   <div
     class="
-      h-max
+      h-full
       w-full
       flex flex-col
       items-center
@@ -39,8 +39,8 @@
       projectDates="01/06/2022"
       projectBackground="bg-portfolio2"
       projectTitle="Portfolio Website 2.0"
-      projectDesc="My portfolio is created with Nuxt 3 and Tailwind CSS to showcase projects that I made."
-      projectLangs="Nuxt 3 & TailwindCSS"
+      projectDesc="My portfolio is created with Vue.js, Nuxt 3 and Tailwind CSS to showcase projects that I made."
+      projectLangs="Vue.js, Nuxt 3, Vue.js & TailwindCSS"
       projectGithub="https://github.com/KayleeWilliams/Portfolio-2.0"
       projectExternal="https://www.kayleewilliams.dev"
       projectBox="lg:order-first lg:mr-[-24px] bg-portfolio2"
@@ -52,7 +52,7 @@
       projectBackground="bg-youtubeWrapped"
       projectTitle="YouTube Wrapped"
       projectDesc="Using Google Takeout and YouTube API to present a recap of a user's data for the past year."
-      projectLangs="Nuxt 3, Tailwind CSS, YouTube API & Python"
+      projectLangs="Vue.js, Nuxt 3, Tailwind CSS, YouTube API & Python"
       projectGithub="https://github.com/KayleeWilliams/YouTube-Wrapped"
       projectExternal="https://wrapped.kayleewilliams.dev"
       projectBox="lg:order-last lg:ml-[-24px] bg-youtubeWrapped"
@@ -63,8 +63,8 @@
       projectDates="15/05/2022"
       projectBackground="bg-portfolio1"
       projectTitle="Portfolio Website 1.0"
-      projectDesc="A website created with Nuxt 2 and Tailwind CSS to showcase projects I have worked on."
-      projectLangs="Nuxt 2 & Tailwind CSS"
+      projectDesc="A website created with Vue.js, Nuxt 2 and Tailwind CSS to showcase projects I have worked on."
+      projectLangs="Vue.js, Nuxt 2 & Tailwind CSS"
       projectGithub="https://github.com/KayleeWilliams/Portfolio-1.0"
       projectExternal="https://portfolio1.kayleewilliams.dev"
       projectBox="lg:order-first lg:mr-[-24px] bg-portfolio1"
@@ -84,14 +84,14 @@
     <button
       @click="expand = true"
       v-show="expand == false"
-      class="bg-box px-6 py-4 rounded-2xl text-xl"
+      class="bg-box px-6 py-4 rounded-2xl text-xl mb-8"
     >
       Show More
     </button>
     <button
       @click="expand = false"
       v-show="expand == true"
-      class="bg-box px-6 py-4 rounded-2xl text-xl"
+      class="bg-box px-6 py-4 rounded-2xl text-xl mb-48"
     >
       Show Less
     </button>

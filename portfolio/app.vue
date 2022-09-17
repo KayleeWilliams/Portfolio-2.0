@@ -1,11 +1,9 @@
 <template>
-  <div class="bg-bg text-white font-custom w-full h-full">
-    <div class="flex flex-col justify-center items-center px-8 pt-40 md:px-20 lg:px-32 xl:px-64 ">
-      <title-section @goTo="goTo"/>
-      <div ref="About"><about-section /></div>
-      <projects-section />
-      <contact-section />
-    </div>
+  <div class="snap-y snap-mandatory scroll-auto overflow-y-scroll justify-center items-center h-screen w-screen bg-bg text-white px-8 md:px-20 lg:px-32 xl:px-64">
+    <div class="snap-center snap-normal"><title-section @goTo="goTo" /></div>
+    <div ref="About" class="snap-center snap-normal"><about-section /></div>
+    <div class="snap-center snap-normal"><projects-section /></div>
+    <div class="snap-center snap-normal"><contact-section /></div>
   </div>
 </template>
 
@@ -20,12 +18,7 @@ export default defineComponent({
 
   methods: {
     goTo(location) {    
-      const top = this.$refs[location].offsetTop;
-      window.scrollTo({
-        top: top,
-        left: 0,
-        behavior: "smooth",
-      });
+      this.$refs[location].scrollIntoView({behavior: "smooth"});
     }
   }
 });

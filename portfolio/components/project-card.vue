@@ -1,7 +1,7 @@
 <template>
   <div class="w-full flex flex-row justify-center items-center">
     <!-- Text Card -->
-    <div :class="projectBox" class="bg-cover bg-center lg:bg-none rounded-2xl w-80 h-64 lg:z-10">
+    <div :class="projectBox" class="bg-cover bg-center lg:bg-none rounded-2xl w-80 h-64 lg:z-10 drop-shadow-lg">
         <div class="flex flex-col justify-between break-words text-left bg-box w-full h-full px-6 py-6 rounded-2xl opacity-95 lg:opacity-100">
             <div class="flex flex-col gap-2">
                 <div class="flex flex-row justify-between items-center">

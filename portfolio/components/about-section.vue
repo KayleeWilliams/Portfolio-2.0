@@ -1,10 +1,10 @@
 <template>
   <div
-    class="h-screen w-full flex flex-col items-start justify-center text-left leading-tight gap-8 md:gap-16">
+    class="h-screen w-full flex flex-col items-center justify-center text-center leading-tight gap-8 md:gap-16">
     <!-- About Section -->
     <div class="flex flex-col gap-6 text-2xl md:text-3xl lg:w-3/4">
       <p class="text-4xl md:text-6xl font-bold">About Me</p>
-      <p>
+      <p class="text-center">
         Hi, I'm Kaylee Williams. I am a software engineer currently studying
         Computer Science at university and will be graduating in 2023.
         <br /><br />
